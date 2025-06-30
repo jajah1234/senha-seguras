@@ -50,7 +50,8 @@ body{
     width: 70%;
 }
 
-#campo-senha:focus{
+#campo-senha
+:focus{
     outline: none;
 }
 
@@ -89,4 +90,12 @@ body{
     .parametro-coluna__senha{
         flex-direction: row;
     }
+}
+.parametro-senha_botão{
+background-color: var(--cor-de-fundo);
+background-color: var(--branco);
+borde:2px solid var(--borda);
+}
+.parametro-senha_texto{
+
 }
